@@ -39,5 +39,5 @@ Because it may evict items that are still hot, it is rarely used in real systems
 2) Instead, it sets an expiration time for each key and removes entries that are too old. 
 3) It is often combined with LRU or LFU to balance freshness and memory usage.
 
-**Q. When it Used?**\  
+**Q. When it Used?**\
 TTL is a must have when data must eventually refresh, like API responses or session tokens.

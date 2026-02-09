@@ -5,7 +5,8 @@
 **Q.How it works?**
 1) Application checks the cache.
 2) If the data is there, return it.
-3) If not, fetch from the database, store 4) it in the cache, and return it.
+3) If not, fetch from the database, store.
+4) it in the cache, and return it.
 
 ## Write-Through Caching
 ![](Image/Write_Through_cache.png)
