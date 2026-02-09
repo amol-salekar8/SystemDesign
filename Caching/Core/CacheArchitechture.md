@@ -8,7 +8,7 @@
 3) If not, fetch from the database, store 4) it in the cache, and return it.
 
 ## Write-Through Caching
-![](Image/Write-Through cache.png)
+![](Image/Write_Through_cache.png)
 **Q. How it Works ?**
 1) With write-through caching, the application writes only to the cache.
 2) The cache then synchronously writes to the database before returning to the application.
