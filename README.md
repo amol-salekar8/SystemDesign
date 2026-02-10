@@ -14,7 +14,7 @@
 - [Reliability & Observability](#reliability--observability)
 - [Scaling & Architecture](#scaling--architecture)
 - [Communication & APIs](#communication--apis)
-- [### Databases & Storage](#databases--storage)
+- [Databases & Storage](#databases--storage)
 
 ### Reliability & Observability
 1) ↬ Metrics
