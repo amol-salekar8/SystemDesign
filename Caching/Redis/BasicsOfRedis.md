@@ -1,5 +1,17 @@
 # Redis
 
+### Content
+- [Resources](#resources)
+- [What is Redis ?](#what-is-redis-)
+- [Redis core data types](#redis-core-data-types)
+- [What make Redis so special](#what-make-redis-so-special)
+- [Concurrent Programming models](#concurrent-programming-models-)
+- [IO Multiplexing (Apparent Concurrency)](#io-multiplexing-apparent-concurrency)
+- [Messaging with Redis](#messaging-with-redis)
+- [Running Redis across multiple servers](#running-redis-across-multiple-servers)
+- [Redis modules](#redis-modules)
+- [Core, cross-cutting concepts](#core-cross-cutting-concepts)
+
 #### Resources
 1) [Redis - Hello Interview System Design in a Hurry](https://www.hellointerview.com/learn/system-design/deep-dives/redis)\
 2) [Introduction_to_redis](https://www.educative.io/courses/building-practical-applications-with-redis-using-go/introduction-to-redis)
