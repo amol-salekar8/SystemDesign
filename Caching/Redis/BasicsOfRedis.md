@@ -1,13 +1,14 @@
 # Redis
 
 #### Resources
-[Redis - Hello Interview System Design in a Hurry](https://www.hellointerview.com/learn/system-design/deep-dives/redis)
-[Introduction_to_redis](https://www.educative.io/courses/building-practical-applications-with-redis-using-go/introduction-to-redis)
+1) [Redis - Hello Interview System Design in a Hurry](https://www.hellointerview.com/learn/system-design/deep-dives/redis)\
+2) [Introduction_to_redis](https://www.educative.io/courses/building-practical-applications-with-redis-using-go/introduction-to-redis)
 
-### What is Redis
+### What is Redis ?
 1) Redis is an open-source, Single threaded, in-memory data structure.
 2) It belongs to the NoSQL category of databases and falls under the key-value database umbrella.
 3) It has been one of the leading databases in this category, according to DB-Engines ranking.
+4) It can be used as Database, Message Broker, Cache, Streaming Engine
 
 ### Redis core data types
 1) Redis’ core data types include String, List, Hash, Set, and Sorted Set.
@@ -32,7 +33,38 @@
   - This is a probabilistic data structure.
   - Its main use case is to count the unique number of elements. 
   - This sounds like a job for Set, but HyperLogLog is much more space-efficient for high data volume (millions of elements), and it sacrifices accuracy for optimizing storage.
-  
+
+**These Data structure Can be used to build variety of application**
+- RealTimeChat
+- Auth Session store
+- Message Buffers
+- Gaming leaders
+- Media Streaming
+- Realtime Analysis
+
+### What make Redis so special
+1) Every Operation in redis is Atomic 
+( When command is executing Redis does not context switch and start executing another command )
+- putting a key
+- adding to list
+- set union/intersection
+- incrementing the value
+
+### Concurrent Programming models 
+Doing multiple things at same time
+
+1) Multithreading 
+- Each incoming RQ over the network is accepted by the server and executed in separate thread\
+**Q.How to ensure data correctness ?**
+  - We have to make other threads wait while one thread is executing the critical section
+  - We have safeguard ( Pessimistic locking )
+    1) Mutex
+    2) Semaphore 
+
+### IO Multiplexing (Apparent Concurrency)
+This is How event loop are implemented
+
+
 ### Messaging with Redis
 - List :
   - In addition to traditional operations like add, search, delete, etc., lists can be used to implement a consumer-producer pattern for reliable asynchronous job processing, also known as worker queues.
