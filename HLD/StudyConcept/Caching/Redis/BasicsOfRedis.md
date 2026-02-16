@@ -1,22 +1,25 @@
-# Redis
+# Redis (REmote DIctionary Service)
 
 ![Basic of architechture](image/basicIntroduction.png)
 
 ### Content
-- [Resources](#resources)
-- [What is Redis ?](#what-is-redis-)
-- [Redis core data types](#redis-core-data-types)
-- [What make Redis so special](#what-make-redis-so-special)
-- [Concurrent Programming models](#concurrent-programming-models-)
-- [IO Multiplexing (Apparent Concurrency)](#io-multiplexing-apparent-concurrency)
-- [Messaging with Redis](#messaging-with-redis)
-- [Running Redis across multiple servers](#running-redis-across-multiple-servers)
-- [Redis modules](#redis-modules)
-- [Core, cross-cutting concepts](#core-cross-cutting-concepts)
+1) [Resources](#resources)
+2) [What is Redis ?](#what-is-redis-)
+3) [Redis core data types](RedisDataType.md/#redis-core-data-types)
+4) [What make Redis so special](#what-make-redis-so-special)
+5) [Redis Architecture](RedisArchitechture.md)
+6) [Redis Persistence](RedisPersistence.md)
+7) [Concurrent Programming models](#concurrent-programming-models-)
+8) [IO Multiplexing (Apparent Concurrency)](#io-multiplexing-apparent-concurrency)
+9) [Messaging with Redis](#messaging-with-redis)
+10) [Running Redis across multiple servers](#running-redis-across-multiple-servers)
+11) [Redis modules](#redis-modules)
+12) [Core, cross-cutting concepts](#core-cross-cutting-concepts)
 
 #### Resources
-1) [Redis - Hello Interview System Design in a Hurry](https://www.hellointerview.com/learn/system-design/deep-dives/redis)\
+1) [Redis - Hello Interview System Design in a Hurry](https://www.hellointerview.com/learn/system-design/deep-dives/redis)
 2) [Introduction_to_redis](https://www.educative.io/courses/building-practical-applications-with-redis-using-go/introduction-to-redis)
+3) [Architechture notes (Redis)](https://architecturenotes.co/p/redis)
 
 ### What is Redis ?
 1) Redis is an open-source, Single threaded, in-memory data structure.
@@ -24,37 +27,12 @@
 3) It has been one of the leading databases in this category, according to DB-Engines ranking.
 4) It can be used as Database, Message Broker, Cache, Streaming Engine
 
-### Redis core data types
-1) Redis’ core data types include String, List, Hash, Set, and Sorted Set.
-2) Redis also has specialized features such as Redis Streams, Pub/Sub, Geospatial indexes, HyperLogLog, etc.
-3) Although it’s an in-memory store, we can choose from a spectrum of persistence options.
-4) It can act as a high-performance in-memory cache, a message broker, streaming engine, and can be used to solve a wide range of problems.
-
-- String :
-  - A basic Redis data type commonly used for caching, atomic counters, etc.
-- Hash : 
-  -  A Redis hash can store attribute-value pairs and is commonly used to model objects.
-- Set :
-  - A set can only contain unique elements, but doesn’t provide any ordering guarantees. 
-  - It’s generally used to store data when duplicates can’t be tolerated, and it’s also used to represent relationships and execute operations such as union, intersection, etc.
-- Sorted Set :
-  - Items in a sorted set have a name and score associated with them. It’s similar to a set because it allows unique elements.
-  - However, it differs from a set in that it provides ordering guarantees based on the member score—or name, if the scores are the same.
-- Geospatial index :
-  - This allows you to store and query latitude and longitude data (coordinates).
-  - This is very useful for use cases that need to search for locations within a specific area, for example, finding restaurants within a five-mile radius.
-- HyperLogLog :
-  - This is a probabilistic data structure.
-  - Its main use case is to count the unique number of elements. 
-  - This sounds like a job for Set, but HyperLogLog is much more space-efficient for high data volume (millions of elements), and it sacrifices accuracy for optimizing storage.
-
-**These Data structure Can be used to build variety of application**
-- RealTimeChat
-- Auth Session store
-- Message Buffers
-- Gaming leaders
-- Media Streaming
-- Realtime Analysis
+### Basic Uses
+1) Redis is an in-memory database **used as a cache in front of another "real" database** like MySQL or PostgreSQL to help improve application performance.
+2)  It leverages the speed of memory and alleviates load off the central application database for:
+    - Data that changes infrequently  and is requested often 
+    - Data that is less mission-critical and is frequently evolving.
+![](image/traditionallyUses.png)
 
 ### What make Redis so special
 1) Every Operation in redis is Atomic 
