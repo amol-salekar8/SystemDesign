@@ -4,8 +4,8 @@
 1) [Introduction to System Design](https://interviewing.io/guides/system-design-interview)
 2) [Karan Pratap Sign/GitHub Repo](https://github.com/karanpratapsingh/system-design)
 
-- [x] <span style="color:green"> Caching core </span>
-- [ ] Redis
+- [x] [Caching Core](HLD/StudyConcept/Caching/Core/BasicOfCache.md)
+  - [ ] [Redis](HLD/StudyConcept/Caching/Redis/BasicsOfRedis.md)
 - [ ] RateLimiter
 - [ ] API Gateway 
 - [ ] Database Design

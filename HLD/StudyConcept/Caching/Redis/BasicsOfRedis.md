@@ -1,5 +1,7 @@
 # Redis
 
+![Basic of architechture](image/basicIntroduction.png)
+
 ### Content
 - [Resources](#resources)
 - [What is Redis ?](#what-is-redis-)
