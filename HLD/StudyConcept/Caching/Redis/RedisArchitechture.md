@@ -9,7 +9,7 @@
 ### 1) Single Redis Instance
 ![](image/singleInstance.png)
 
-1) Single Redis instance is the most **straightforward deployment of Redis**.
+Single Redis instance is the most $\color{red}{\textsf{straightforward deployment of Redis}}$ 
 2) Allows users to set up and run small instances that can help them grow and speed up their services.
 
 **Q. What if Fail?**
