@@ -90,3 +90,67 @@
 2) Advanced Caching Technique
 3) Fault Tolerance and internals
 
+### Database Scaling Strategies
+1) Vertical Scaling : Incresing CPU/RAM (The limit)
+2) Horizontal Scaling : Adding more nodes (The goal).
+3) Database Sharding : Partitioning data by UserID or geography
+4) Read Replicas : Offloading read traffic from the primary DB.
+
+### Advanced Caching Techniques
+1) Cache Eviction policies : LRU, LFU, FIFO
+2) Cache Strategies: Write through, Write around, Cache aside.
+3) Cache Invalidation : How to handle data update (The "Hardest Problem")
+4) Distribute Cache : Managing state across multiple cache nodes.
+
+### Fault Tolerance & Internals
+1) Leader Election : How system picks new primary node
+2) HeartBeats : Monitoring node health to trigger failover.
+3) Quorum : Ensuring enough nodes agree on data write.
+4) Data Replication : Synchronous vs Asynchronous replication trade-offs
+
+## Step 5: Scalability & Bottlenecks
+1) Solving the 'Celebrity' Problem
+2) Network & Security Bottlenecks
+3) Reliability & Monitoring
+
+### Solving the 'Celebrity' Problem
+1) **Hot Shards :** handling millions of followers on single node.
+2) **Consistent Hashing :** Reducing data movements during re-sharding.
+3) **Traffic Shaping :** Queuing requests during massive spikes.
+4) **Adaptive Throttling:** Rejecting requests based on server health.
+
+### Network & Security Bottlenecks
+1) **Rate Limiting :** Protecting services from DDoS and scraping
+2) **Connection Pooling :** Managing DB connection efficiently.
+3) **TLS Termination :** Handling encryption at the Load Balancer level
+4) **Service MESH :** Using Istio/Linked for service-to-service communication.
+
+### Reliability & Monitoring
+1) **Circuit Braker :** Preventing cascading failures (Hystrix Problem).
+2) **Graceful Degradation :** Showing 'cached' data if the DB is down.
+3) **Observability :** Logs, Metrics(Prometheus) and Tracing (Jaeger)
+4) **Chaos Engineering :** Intentionally breaking things to test resilience.
+
+
+## Step 6: Trade -offs & Improvements
+1) The "This vs That " table
+2) CAP theorem positioning
+3) V2 Roadmap & Future Scope
+
+### The "This vs That " table
+1) SQL vs NoSQL (Consistency vs Scalability)
+2) Polling vs WebSockets (Simplicity vs Real-Time)
+3) Batch vs Stream processing ( Latency vs Throughput)
+4) Monolith vs Microservice (Deployment speed vs complexity)
+
+### CAP theorem positioning
+1) Explaining why your system is AP (Available & Partition tolerant)
+2) Explaining why your system is CP (Consistent & Partition tolerant)
+3) Discussing 'PACELC' (The modern extension of CAP)
+4) Acknowledging the 'Eventual Consistency' trade-off
+
+### V2 Roadmap & Future Scope
+1) Implementing Machine learning for better feed ranking.
+2) Moving to Multi-Region deployment for disaster recovery.
+3) Cost optimization (Cold storage for old data).
+4) Improving Developer Experience (SDKs, Documentation).
