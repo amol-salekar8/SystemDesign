@@ -1,5 +1,4 @@
 # API Gateway
-
 ## Content
 1) [Q. Why Do We Need an API Gateway?](#why-do-we-need-an-api-gateway)
 2) [Without an API Gateway:](#without-an-api-gateway)
