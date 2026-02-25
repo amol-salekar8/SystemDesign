@@ -1,5 +1,9 @@
 # 6 Steps Framework
 
+### Resources
+1) https://www.youtube.com/watch?v=M2H61M1iq2E&t=2970s
+
+### Content
 1) [Clarify Requirements](#step-1-clarify-requirements)
 2) [Define APIS and workflow](#step-2-define-apis-and-data-flow)
 3) [High level design]()
