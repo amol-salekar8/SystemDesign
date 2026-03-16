@@ -51,7 +51,7 @@
 ********
 
 ## Build Tools
-1) [**Jenkins**](../Jenkins/Jenkins_Core.md)
+1️⃣ [**Jenkins**](../Jenkins/Jenkins_Core.md)
    - **Description :**
       - Jenkins is a widely used open-source automation server that makes CI/CD procedures easier. 
       - It allows programmers to rapidly and reliably create, test, & release software. 
@@ -73,7 +73,7 @@
      - Additional settings and programming may be necessary for managing complex pipelines.
      - Inadequate configuration and maintenance could introduce security risks.
 ********
-2) [**Gradle :**](Gradle.md)
+2️⃣ [**Gradle :**](Gradle.md)
    - **Description :**
      - The open-source [build automation](https://www.browserstack.com/guide/build-automation) tool Gradle places a premium on adaptability and speed. 
      - It defines build scripts with a Groovy-based DSL (Domain-Specific Language).
@@ -91,7 +91,7 @@
      - More difficult to pick up if you’re unfamiliar with Groovy or DSLs.
      - There isn’t much help for aging software or Java versions.
 ********
-- [**Maven :**](Maven.md)
+3️⃣ [**Maven :**](Maven.md)
   - **Description :**
     - Apache Maven is a popular build automation tool that has found its niche in Java development. 
     - It **controls construction via XML-based Project Object Model (POM)** files.
