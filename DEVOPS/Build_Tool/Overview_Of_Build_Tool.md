@@ -50,6 +50,16 @@
 
 ********
 
+| Feature |	Software Build Tools |	DevOps / CI Build Tools |
+|----------|----------------------|-----------------------|
+|Purpose|	Build and package code|	Automate the development pipeline
+|Scope	|Only building the application|	Full CI/CD workflow
+|Used By|	Developers |	DevOps engineers / automation systems
+|Output	|Executable or build artifact|	Automated build + test + deployment
+|Examples|	Maven, Gradle|	Jenkins, GitHub Actions
+
+********
+
 ## Build Tools
 1️⃣ [**Jenkins**](../Jenkins/Jenkins_Core.md)
    - **Description :**
