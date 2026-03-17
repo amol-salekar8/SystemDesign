@@ -1,7 +1,7 @@
 # Build Tool
 
 - Backbone of modern software development, automating the process of **turning raw source code into deployable** applications.
--  **Instead of relying on repetitive manual steps**, build tools handle compilation, testing, dependency management, and packaging—making the development lifecycle faster, more consistent, and less error-prone.
+-  **Instead of relying on repetitive manual steps**, build tools handle compilation, testing, dependency management, and packaging making the development lifecycle faster, more consistent, and less error-prone.
 - **Note :**
   - Build tools are crucial to the state of the art in software development. 
   - They **eliminate the need for human labor** and its accompanying inconsistencies and inefficiencies. 
@@ -50,13 +50,13 @@
 
 ********
 
-| Feature |	Software Build Tools |	DevOps / CI Build Tools |
-|----------|----------------------|-----------------------|
-|Purpose|	Build and package code|	Automate the development pipeline
-|Scope	|Only building the application|	Full CI/CD workflow
-|Used By|	Developers |	DevOps engineers / automation systems
-|Output	|Executable or build artifact|	Automated build + test + deployment
-|Examples|	Maven, Gradle|	Jenkins, GitHub Actions
+| Feature | 	Software Build Tools         |	DevOps / CI Build Tools |
+|----------|-------------------------------|-----------------------|
+|Purpose| 	Build and package code       |	Automate the development pipeline
+|Scope	| Only building the application |	Full CI/CD workflow
+|Used By| 	Developers                   |	DevOps engineers / automation systems
+|Output	| Executable or build artifact  |	Automated build + test + deployment
+|Examples| 	Ant, Maven, Gradle           |	Jenkins, GitHub Actions
 
 ********
 
@@ -119,7 +119,14 @@
   - **Limitations :**
     - Less adaptability than Gradle due to a more dogmatic approach.
     - Projects with many dependencies take more time to construct.
-    - 
+  
+
+********
+
+# Software Development Build Tool
+- Apache Ant
+- Maven
+- Gradle
   
 
 
