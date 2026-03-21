@@ -14,6 +14,10 @@
     - Instead of Buying new charger, you use travel adapter.
     - The adapter extends your existing charger's usability.
     - you did not modify the original charger itself.
+- Bus to Train
+  - Suppose we have bus
+  - If Bus get fulled we can't expand but If Train get fully field with passenger
+  - there is chance of Add new Train compartment
 
 ## Real Word Example
 - Let's now used region based tax calculation (eg. India, US, UK) in an invoicing System to explain the OCP

@@ -7,10 +7,16 @@
 - This means if one responsibility changes, the other responsibility may be also affected
 
 ## Real life analogy
-- Imagine a chef who is responsible for cooking, cleaning, serving food and ordering groceries.
-- If the chef is busy cleaning, they can't focus on cooking and the quality of food may suffer.
-- Instead, different people should handle each task
-- This way, each person focus on their specific responsibility, leading to better result overall.
+- Example 1 : **Restaurant**
+  - Imagine a chef who is responsible for cooking, cleaning, serving food and ordering groceries.
+  - If the chef is busy cleaning, they can't focus on cooking and the quality of food may suffer.
+  - Instead, different people should handle each task
+  - This way, each person focus on their specific responsibility, leading to better result overall.
+- Example 2 : **Traffic management**
+  - Suppose we want go from mumbai to pune and there is one route i.e. Mumbai Pune Expressway and its working fine
+  - Suppose in that highway we send all the vehicle of Nashik direction to the Mumbai Pune Expressway
+  - There is possibility of traffic jam and its get affected to vehicle that going to pune
+  - that why we have another route for pune and nashik
 
 ## Significance of SRP
 - Understand with LeetCode compiler and currently compiler does following thing.
