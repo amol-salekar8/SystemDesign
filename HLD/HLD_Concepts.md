@@ -1,41 +1,35 @@
 # HLD Index
 
-- [X] [Caching Core](./StudyConcept/DatabaseAndStorage/Caching/Core/BasicOfCache.md)
-    - [ ] [Redis](./StudyConcept/DatabaseAndStorage/Caching/Redis/BasicsOfRedis.md)
-- [ ] RateLimiter
-- [X] [API Gateway](./StudyConcept/CommunicationAndAPI/API/APIGateway/APIGateway.md)
-- [ ] Database Design
-
-### Content
+## Content
 - [Reliability & Observability](#reliability--observability)
 - [Scaling & Architecture](#scaling--architecture)
 - [Communication & APIs](#communication--apis)
 - [Databases & Storage](#databases--storage)
 - [Resources](#resource)
 
-### Reliability & Observability
-- [ ] ↬ Metrics
-- [ ] ↬ Alerting
-- [ ] ↬ Failover
-- [ ] ↬ Logging
-- [ ] ↬ Rollbacks
-- [ ] ↬ Monitoring
-- [ ] ↬ Heartbeats
-- [ ] ↬ Retry Logic
-- [ ] ↬ Autoscaling
-- ✅ ↬ [SLO/SLI/SLA](./HLD/StudyConcept/ReliabilityAndObservability/SiteRelabilityEngineering.md)
-- [ ] ↬ Load Testing
-- [ ] ↬ Error Budgets
-- [ ] ↬ Health Checks
-- [ ] ↬ Circuit Breaker
-- [ ] ↬ Incident Response
-- [ ] ↬ Chaos Engineering
-- [ ] ↬ Distributed Tracing
-- [ ] ↬ Canary Deployments
-- [ ] ↬ Graceful Degradation
-- [ ] ↬ Blue-Green Deployment
+## 1️⃣ Reliability & Observability
+- [ ] 1️⃣ ↬ Metrics
+- [ ] 2️⃣ ↬ Alerting
+- [ ] 3️⃣ ↬ Failover
+- [ ] 4️⃣ ↬ Logging
+- [ ] 5️⃣ ↬ Rollbacks
+- [ ] 6️⃣ ↬ Monitoring
+- [ ] 7️⃣ ↬ Heartbeats
+- [ ] 8️⃣ ↬ Retry Logic
+- [ ] 9️⃣ ↬ Autoscaling
+- ✅ 🔟 ↬ [SLO/SLI/SLA](./HLD/StudyConcept/ReliabilityAndObservability/SiteRelabilityEngineering.md)
+- [ ] 1️⃣1️⃣ ↬ Load Testing
+- [ ] 1️⃣2️⃣ ↬ Error Budgets
+- [ ] 1️⃣3️⃣ ↬ Health Checks
+- [ ] 1️⃣4️⃣ ↬ Circuit Breaker
+- [ ] 1️⃣5️⃣ ↬ Incident Response
+- [ ] 1️⃣6️⃣ ↬ Chaos Engineering
+- [ ] 1️⃣7️⃣ ↬ Distributed Tracing
+- [ ] 1️⃣8️⃣  ↬ Canary Deployments
+- [ ] 1️⃣9️⃣  ↬ Graceful Degradation
+- [ ] 2️⃣0️⃣ ↬ Blue-Green Deployment
 
-### Scaling & Architecture
+## 2️⃣ Scaling & Architecture
 - [ ] ↬ CDN
 - [ ] ↬ Caching
 - [ ] ↬ Sharding
@@ -56,8 +50,8 @@
 - [ ] ↬ Monolith vs Microservices
 - [ ] ↬ Leader Election
 
-### Communication & APIs
-- [ ] ↬ JWT
+## 3️⃣ Communication & APIs
+- [ ] 1️⃣ JWT
 - [ ] ↬ CORS
 - [ ] ↬ OAuth
 - [ ] ↬ Throttling
@@ -65,7 +59,9 @@
 - [ ] ↬ API Security
 - [ ] ↬ Long Polling
 - [ ] ↬ WebSockets
-- [ ] ↬ API Gateway
+- ✅ ↬ [API Gateway](./StudyConcept/CommunicationAndAPI/API/APIGateway/APIGateway.md)
+- ✅ ↬ [API Contract](./StudyConcept/CommunicationAndAPI/API/APIContract.md)
+- ✅ ↬ [API Design](./StudyConcept/CommunicationAndAPI/API/APIDesign/APIDesign.md)
 - [ ] ↬ Idempotency
 - [ ] ↬ Service Mesh
 - [ ] ↬ Retry Patterns
@@ -78,14 +74,15 @@
 - [ ] ↬ Message Queues
 - [ ] ↬ Dead Letter Queue
 
-### Databases & Storage
+## 4️⃣Databases & Storage
 - [ ] ↬ Leader-Follower Replication
 - [ ] ↬ WAL (Write Ahead Log)
 - [ ] ↬ Asynchronous Processing
 - [ ] ↬ Transaction Isolation
 - [ ] ↬ Read/Write Patterns
 - [ ] ↬ Consistent Hashing
-- [ ] ↬ Redis/Memcached
+- [ ] [Caching Core](./StudyConcept/DatabaseAndStorage/Caching/Core/BasicOfCache.md)
+    - [ ] [Redis](./StudyConcept/DatabaseAndStorage/Caching/Redis/BasicsOfRedis.md)
 - [ ] ↬ Backup & Restore
 - [ ] ↬ Hot/Cold Storage
 - [ ] ↬ Data Partitioning
