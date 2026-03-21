@@ -2,4 +2,7 @@
 
 1) **[Introduction of LLD](./StudyConcept/Core_Concept/IntroductionOfLLD.md)**
 2) **[Software Design Principle](./StudyConcept/Core_Concept/SoftwareDesignPrinciple.md)**
-3) 
+   - [DRY](./StudyConcept/Core_Concept/SoftwareDesignPrinciple.md/#dry-dont-repeat-yourself)
+   - [KISS](./StudyConcept/Core_Concept/SoftwareDesignPrinciple.md/#kiss-keep-it-simple-stupid)
+   - [YAGNI](./StudyConcept/Core_Concept/SoftwareDesignPrinciple.md/#yagni-you-arent-gonna-need-it)
+3) **[SOLID]()**
