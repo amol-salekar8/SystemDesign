@@ -1,5 +1,6 @@
 # Build Tool
 
+**Why we used ?**
 - Backbone of modern software development, automating the process of **turning raw source code into deployable** applications.
 -  **Instead of relying on repetitive manual steps**, build tools handle compilation, testing, dependency management, and packaging—making the development lifecycle faster, more consistent, and less error-prone.
 - **Note :**
@@ -119,8 +120,17 @@
   - **Limitations :**
     - Less adaptability than Gradle due to a more dogmatic approach.
     - Projects with many dependencies take more time to construct.
-    - 
-  
+********
 
+## Maven vs Gradle
 
+| Content       | Maven                          | Gradle |
+|---------------|--------------------------------|---------|
+| Based on      | Developing java based software | Developing domain specific language project |
+| Focus         | It focus on developing application within deadline | It focuses on developing application by adding new feature |
+| Configuration | It uses Extensiable Markup language or XML for making project structure | Gradle uses Groovy-based domain specific language or making project structure |
+| Language      | Maven support development in language in Scala, C#, and ruby | Gradle support development in language like Java, C, C++, and groovy |
+| Customization | Provide limited number of parameter and is not much customizable | Highly customizable providing a large range of IDE support |
+| Performance   | Maven does not used build cache, that makes the build time slower | It perform bettter than Maven as it tracks only the current task |
+| Project Size  | Small | Large and complex |
 
