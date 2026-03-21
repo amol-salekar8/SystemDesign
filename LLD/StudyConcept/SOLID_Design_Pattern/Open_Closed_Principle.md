@@ -1,6 +1,6 @@
 # Open Closed Principle
 
-## Defination
+## Definition
 - As per OCP, Software entities ( classes, modules, functions, etc) should open for extension, but closed for modification.
 - This means that the behaviour of a module can be extended without modifying its source code.
 - The goal is to reduce the risk of breaking existing functionality when requiring.
