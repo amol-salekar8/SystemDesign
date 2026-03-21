@@ -127,8 +127,14 @@ class GermanyTaxCalculator implements  TaxCalculator{
 
 ## Common misconception about OCP
 - Open/Closed means code should never be changed again.
+  - The principle emphasizes avoiding changes to core logic while allowing behavior to be extended safely
 - OCP leads to too many classes, so it's overkill
+  - It true that applying OCP often results in more classes or interface.
+  - However, this trade-off typically improves modularity, testability and maintainability
 - OCP makes the code harder to read
+  - In small or short-lived projects, added abstraction can feel unnecessary
+  - But in system with complex behaviour  or frequent changes, well-structured extensibility can actually improve clarity by separating concern and reducing conditional logic
 - OCP should always applied upfront
 - Refactoring contradicts OCP
 - OCP makes retesting legacy code unnecessary
+  - No, only new extensions still require thorough testing to ensure correctness and integration.
